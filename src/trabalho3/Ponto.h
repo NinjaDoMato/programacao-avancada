@@ -13,12 +13,16 @@ class Ponto
 {
 public:
 
+    //Construtor vazio
     Ponto(): x(0.0), y(0.0){}
 
+    //Construtor com atributos
     Ponto(double x, double y): x(x), y(y){}
 
+    //Destrutor
     virtual ~Ponto(){}
 
+    //Operadores
     Ponto operator +(Ponto ponto)
     {
         double x = this->x + ponto.x;
