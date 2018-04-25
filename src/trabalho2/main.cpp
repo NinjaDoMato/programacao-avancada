@@ -8,13 +8,14 @@ using namespace std;
 int main() {
     cout << "========= Trabalho 2 ========="<<endl;
 
+    //Criação dos objetos Cliente
     Cliente cliente1("Daniel");
     Cliente cliente2("Lucas");
     Cliente cliente3("Chaua");
 
     cout<<"=== Contas originais ==="<<endl;
 
-
+    //Criação dos objetos ContaCorrente e ContaPoupanca
     ContaCorrente *conta1 = new ContaCorrente(1234, cliente1);
     ContaPoupanca *conta2 = new ContaPoupanca(1235, cliente2);
     ContaCorrente *conta3 = new ContaCorrente(4321, cliente3);
