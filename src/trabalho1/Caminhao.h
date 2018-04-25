@@ -11,20 +11,25 @@ class Caminhao : public Veiculo
 {
 public:
 
+    //Construtor vazio
     Caminhao() : comprimento(0.0), capacidade(0.0), altura(0.0), Veiculo("", 0.0, 0, 0.0){}
 
+    //Construtor com atributos
     Caminhao(float capacidade, float comprimento, float altura, string placa, float peso, int veloc, float preco) :
             Veiculo(placa, peso, veloc, preco),
             capacidade(capacidade),
             comprimento(comprimento),
             altura(altura){}
 
+    //Destrutor
     virtual ~Caminhao(){}
 
+    //Getters
     virtual inline float GetCapacidade() { return this->capacidade; }
     virtual inline float GetComprimento() { return this->comprimento; }
     virtual inline float GetAltura() { return this->altura; }
 
+    //Setters
     virtual inline void SetCapacidade(float capacidade) { this->capacidade = capacidade; }
     virtual inline void SetComprimento(float comprimento) { this->comprimento = comprimento; }
     virtual inline void SetAltura(float altura) { this->altura = altura; }
