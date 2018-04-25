@@ -7,10 +7,13 @@ class ContaCorrente : public Conta
 {
 public:
 
+    //Construtor com atributos
     ContaCorrente(int numero, Cliente cliente) : Conta(numero, cliente) {}
 
+    //Construtor vazio
     ContaCorrente() : Conta() {}
 
+    //métodos
     inline void Deposita(float valor)
     {
         saldo += valor;
