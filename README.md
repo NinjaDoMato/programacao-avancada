@@ -2,7 +2,7 @@ Disciplina: Programação Avançada
 
 Aluno: Daniel Deda
 
-Excecução: Para executar os trabalhos, basta abrir o projeto no CLion e compila-lo, após isso o projeto poderá ser executado normalmente através da IDE.
+Excecução: Para executar os trabalhos basta abrir o projeto no CLion e compila-lo, após isso o projeto poderá ser executado normalmente através da IDE.
 
 Trabalho 1
 
