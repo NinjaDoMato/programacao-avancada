@@ -12,12 +12,15 @@ class Caminhonete : public Carro, public Caminhao
 {
 public:
 
+    //Construtor vazio
     Caminhonete(){}
 
+    //Construtor com atributos
     Caminhonete(string modelo, string cor, string placa, float capacidade, float comprimento, float altura, float peso, int veloc, float preco) :
             Carro(modelo, cor, placa, peso, veloc, preco),
             Caminhao(capacidade, comprimento, altura, placa, peso, veloc, preco){}
 
+    //Destrutor
     virtual ~Caminhonete(){}
 
     inline void Imprime()
