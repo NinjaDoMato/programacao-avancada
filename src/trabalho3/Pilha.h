@@ -14,22 +14,26 @@ class Pilha
 {
 public:
 
+    //Construtor Vazio
     Pilha() : pilha(new string[100]), numItens(0), tamPilha(100)
     {
         cout<<"Construtor 1"<<endl;
     }
 
+    //Construtor com atributo
     Pilha(int tamanho) : pilha(new string[tamanho+1]), numItens(0), tamPilha(tamanho)
     {
         cout<<"Construtor 2"<<endl;
     }
 
+    //Destrutor
     virtual ~Pilha()
     {
         cout<<"Destrutor"<<endl;
         delete pilha;
     }
 
+    //Métodos
     inline bool PilhaCheia()
     {
         return this->numItens >= this->tamPilha? true : false;
@@ -65,6 +69,7 @@ public:
         }
     }
 
+    //Operadores
     void operator +=(string valor)
     {
         Empilha(valor);
