@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho1/Caminhao.h
+Veiculo.h
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho1/Veiculo.h
+
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho1/Caminhonete.h
+Carro.h
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho1/Carro.h
+Caminhao.h
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho1/Caminhao.h
+
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho1/Carro.h
+Veiculo.h
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho1/Veiculo.h
+
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho1/Veiculo.h
+iostream
+-
+string.h
+-
+stdlib.h
+-
+
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho1/main.cpp
+iostream
+-
+Caminhonete.h
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho1/Caminhonete.h
+string.h
+-
+

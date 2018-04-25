@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho3/Pilha.h
+iostream
+-
+string
+-
+
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho3/Ponto.h
+iostream
+-
+
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho3/main.cpp
+Pilha.h
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho3/Pilha.h
+Ponto.h
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho3/Ponto.h
+

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho2/Cliente.h
+iostream
+-
+string.h
+-
+
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho2/Conta.h
+Cliente.h
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho2/Cliente.h
+
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho2/ContaCorrente.h
+Conta.h
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho2/Conta.h
+
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho2/ContaPoupanca.h
+Conta.h
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho2/Conta.h
+
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho2/main.cpp
+iostream
+-
+ContaCorrente.h
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho2/ContaCorrente.h
+ContaPoupanca.h
+/cygdrive/c/Users/dedad/Desktop/PA/TRABALHO/src/trabalho2/ContaPoupanca.h
+
