@@ -7,11 +7,10 @@ Excecução: Para executar os trabalhos, basta abrir o projeto no CLion e compil
 Trabalho 1
 
     - Atividade 1
-          - Foi criada uma classe chamada Veiculo contendo os seguintes atributos: placa (string), peso (float), velocidade máxima (int)
-            e preco (float). Bem como seus construtores, getters e setters.
+          - Foi criada uma classe chamada Veiculo contendo os seguintes atributos: placa (string), peso (float), velocidade máxima (int e preco (float). Bem como seus construtores, getters e setters.
             
     - Atividade 2
-          - Foi criada uma classe chamada Carro, herdeira da classe Veiculo, contendo os seguintes atributos: modelo(string), corString).             Bem como seus construtores, getters e setters.    
+          - Foi criada uma classe chamada Carro, herdeira da classe Veiculo, contendo os seguintes atributos: modelo(string), corString). Bem como seus construtores, getters e setters.    
           
     - Atividade 3
           - Foi criada uma classe chamada Caminhao, herdeira da classe Veiculo, contendo os seguintes atributos: capacidade(float), comprimento(float) e altura(sloat). Bem como seus construtores, getters e setters. 
