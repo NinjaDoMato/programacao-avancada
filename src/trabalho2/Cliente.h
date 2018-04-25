@@ -14,13 +14,16 @@ class Cliente
 {
 public:
 
+    //Construtor
     Cliente(string nome) : nome(nome){}
 
+    //Setter
     inline void setNome(string nome)
     {
         this->nome = nome;
     }
 
+    //Getter
     inline string getNome()
     {
         return nome;
