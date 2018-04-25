@@ -1,3 +1,4 @@
+
 //
 // Created by dedad on 04/04/2018.
 //
@@ -11,8 +12,10 @@ class Carro : public Veiculo
 {
 public:
 
+    //Construtor Vazio
     Carro() : Veiculo("", 0.0, 0, 0.0), modelo(""), cor(""){}
 
+    //Construtor com Atributos
     Carro(string modelo, string cor, string placa, float peso, int veloc, float preco) :
             Veiculo(placa, peso, veloc, preco),
             modelo(modelo),
@@ -20,9 +23,11 @@ public:
 
     virtual ~Carro(){}
 
+    //Getters
     virtual inline string GetModelo() { return this->modelo; }
     virtual inline string GetCor() { return this->cor; }
 
+    //Setters
     virtual inline void SetModelo(string modelo) { this->modelo = modelo; }
     virtual inline void SetCor(string cor) { this->cor = cor; }
 
