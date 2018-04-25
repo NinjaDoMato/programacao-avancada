@@ -1,3 +1,4 @@
+
 //
 // Created by dedad on 04/04/2018.
 //
@@ -15,21 +16,26 @@ class Veiculo
 {
 public:
 
+    //Construtor Vazio
     Veiculo() : placa(""), peso(0.0), velocidadeMaxima(0), preco(0.0){}
 
+    //Construtor com atributos
     Veiculo(string placa, float peso, int velocidadeMaxima, float preco) :
             placa(placa),
             peso(peso),
             velocidadeMaxima(velocidadeMaxima),
             preco(preco){}
 
+    //Destrutor
     virtual ~Veiculo(){}
-
+    
+    //Getters
     virtual inline string GetPlaca(){return this->placa;};
     virtual inline float GetPeso(){return this->peso;};
     virtual inline int GetVelocidade(){return this->velocidadeMaxima;};
     virtual inline float GetPreco(){return this->preco;};
 
+    //Setters
     virtual inline void SetPlaca(string placa){this->placa = placa;};
     virtual inline void SetPeso(float peso){this->peso = peso > 0? peso : this->peso;};
     virtual inline void SetVelocidade(int veloc){this->velocidadeMaxima = veloc > 0? veloc : this->velocidadeMaxima;};
