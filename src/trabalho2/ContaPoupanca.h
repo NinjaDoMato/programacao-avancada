@@ -7,9 +7,13 @@ class ContaPoupanca : public Conta
 {
 public:
 
+    //Construtor com atributos
     ContaPoupanca(int numero, Cliente cliente) : Conta(numero, cliente) {}
+    
+    //Construtor vazio
     ContaPoupanca() : Conta() {}
 
+    //Métodos
     inline void Deposita(float valor)
     {
         saldo += valor;
