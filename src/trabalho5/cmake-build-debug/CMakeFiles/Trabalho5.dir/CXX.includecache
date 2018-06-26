@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/dedad/Desktop/Trabalho5/main.cpp
+C:/Users/dedad/Desktop/Trabalho5/Controller/LojaController.h
+-
+
+C:/Users/dedad/Desktop/Trabalho5/Controller/LojaController.h
+C:/Users/dedad/Desktop/Trabalho5/View/LojaView.h
+-
+C:/Users/dedad/Desktop/Trabalho5/Model/JogoDAO.cpp
+-
+
+C:/Users/dedad/Desktop/Trabalho5/Model/Jogo.h
+iostream
+-
+string
+-
+
+C:/Users/dedad/Desktop/Trabalho5/Model/JogoDAO.cpp
+JogoDAO.h
+C:/Users/dedad/Desktop/Trabalho5/Model/JogoDAO.h
+
+C:/Users/dedad/Desktop/Trabalho5/Model/JogoDAO.h
+fstream
+-
+vector
+-
+Jogo.h
+C:/Users/dedad/Desktop/Trabalho5/Model/Jogo.h
+
+C:/Users/dedad/Desktop/Trabalho5/View/LojaView.h
+C:/Users/dedad/Desktop/Trabalho5/Model/JogoDAO.h
+-
+cstdlib
+-
+

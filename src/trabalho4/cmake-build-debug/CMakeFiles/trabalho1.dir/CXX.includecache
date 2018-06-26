@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/dedad/Desktop/TRABALHO_2/scr/trabalho1/Matriz.h
+iostream
+-
+sstream
+-
+fstream
+-
+string
+-
+
+/cygdrive/c/Users/dedad/Desktop/TRABALHO_2/scr/trabalho1/main.cpp
+Matriz.h
+/cygdrive/c/Users/dedad/Desktop/TRABALHO_2/scr/trabalho1/Matriz.h
+
