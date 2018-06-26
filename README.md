@@ -52,3 +52,11 @@ Trabalho 2
             
     - Atividade 3
           - Criada uma classe Ponto, contendo os operadores passados na expecificação da atividade e fazendo uma operação envolvendo estes mesmos operadores.
+          
+Trabalho 4
+
+    - Foram criadas as classes definidas na descrição do trabalho, e ao final executadas as equações conforme requisitado.
+    
+Trabalho 5
+
+    - Foram criadas as classes definidas na descrição do trabalho, e ao executar o programa, um menu com as opções de interação será apresentado, informando o usuário do qeu fazer para prossegui com a ação.
